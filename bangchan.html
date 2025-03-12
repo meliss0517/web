@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bang Chan - STRAY KIDS</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS compartido -->
+    <style>
+        /* Estilos específicos para esta página */
+        body {
+            background-image: url('img/img/chan7.jpg'); /* Ruta de la imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            color: #fff; /* Color del texto en general */
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para contraste */
+        }
+
+        .profile h1 {
+            color: #e50914;
+            font-family: 'Oswald', sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Sombra para texto */
+        }
+
+        .back-link {
+            margin-top: 20px;
+        }
+
+        .back-link a {
+            color: #e50914;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .back-link a:hover {
+            color: pink;
+        }
+
+        /* Estilo para las imágenes al final */
+        .photo-gallery {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .photo-gallery h2 {
+            font-family: 'Oswald', sans-serif;
+            color: #e50914;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .photo-gallery .photos {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espaciado entre imágenes */
+            flex-wrap: wrap;
+        }
+
+        .photo-gallery .photos img {
+            max-width: 300px;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombras elegantes */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .photo-gallery .photos img:hover {
+            transform: scale(1.1); /* Efecto de zoom */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">STRAY KIDS</div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="albumes.html">Álbumes</a></li>
+                <li><a href="historia.html">Historia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile">
+            <h1>Bang Chan</h1>
+            <p>
+                Bang Chan es el líder y productor principal de Stray Kids. Nacido en Sídney, Australia,
+                el 03 de Octubre de 1997, tiene 27 años de edad.
+                es conocido por su talento para componer, escribir letras y coreografiar. Su trabajo
+                como miembro del equipo de producción 3RACHA ha definido el sonido único del grupo,
+                mezclando géneros como el hip-hop, el pop y la música electrónica.
+            </p>
+            <div class="back-link">
+                <a href="integrantes.html">← Regresar a Integrantes</a>
+            </div>
+        </section>
+
+        <!-- Galería de fotos al final -->
+        <section class="photo-gallery">
+            <h2>fotos</h2>
+            <div class="photos">
+                <img src="img/img/chan4.jpg" alt="Bang Chan Momento 1">
+                <img src="img/img/chan5.webp" alt="Bang Chan Momento 2">
+                <img src="img/img/chan8.webp" alt="Bang Chan Momento 3">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 STRAY KIDS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

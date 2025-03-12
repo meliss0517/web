@@ -1,0 +1,210 @@
+/* Estilo General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #eeeeee;
+    background-image: url('img/img/skz4.webp'); /* Reemplaza con imágenes de Stray Kids */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: rgba(24, 23, 23, 0.301);
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #e50914;
+}
+
+.navbar .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .menu li {
+    margin: 0 15px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar .menu a:hover {
+    color: #e50914;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 6em 2em;
+    background-color: rgba(114, 113, 113, 0);
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    color: #000000;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f40612;
+}
+
+/* Galería */
+.gallery {
+    text-align: center;
+    padding: 3em;
+}
+
+.card {
+    display: inline-block;
+    width: 230px;
+    margin: 60px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 230px;
+    height: 260px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+/* Pie de Página */
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.158);
+    color: #d4c7c7;
+}
+
+.btn {
+    background-color: #e50914; /* Fondo del botón en rojo intenso */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.btn a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* El texto "Historia" será blanco */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+}
+
+.btn:hover {
+    background-color: #f40612; /* Cambia el fondo al pasar el mouse */
+}
+
+/* Fondo personalizado para la página de Integrantes */
+.pagina-integrantes {
+    background-image: url('img/img/skz21.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover; /* Hace que la imagen ocupe todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* La imagen queda fija al hacer scroll */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Asegura que el texto sea visible sobre el fondo */
+}
+
+/* Estilo adicional para contenido en la página de Integrantes */
+.pagina-integrantes #integrantes {
+    padding: 1em; /* Espaciado dentro de la sección */
+    background-color: rgba(0, 0, 0, 0.384); /* Fondo semitransparente para legibilidad */
+    border-radius: 7px; /* Bordes redondeados */
+    text-align: center;
+}
+
+/* Fondo personalizado para la página de Álbumes */
+.pagina-albumes {
+    background-image: url('img/img/skz14.jpg'); /* Reemplaza con tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras haces scroll */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Hace que el texto sea visible sobre el fondo */
+}
+
+/* Estilo adicional para contenido dentro de la página Álbumes */
+.pagina-albumes #albumes {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.452); /* Fondo semitransparente para mejor legibilidad */
+    border-radius: 7px; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido */
+}
+
+/* Fondo personalizado para la página de Historia */
+.pagina-historia {
+    background-image: url('img/img/skz17.png'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras haces scroll */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Asegura que el texto sea visible sobre el fondo */
+}
+
+/* Estilo adicional para contenido en la página Historia */
+.pagina-historia #historia {
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.445); /* Fondo semitransparente para mejorar la legibilidad del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido */
+}
+
+/* Cambiar color de los enlaces por defecto */
+a {
+    color: rgb(129, 13, 13); /* Cambia el color a tu preferencia */
+    text-decoration: none; /* Elimina el subrayado si no lo deseas */
+}
+
+/* Cambiar el color cuando el usuario pasa el cursor */
+a:hover {
+    color: rgb(255, 0, 0); /* Cambia el color al pasar el cursor */
+    text-decoration: underline; /* Opcional: subraya el enlace al pasar el cursor */
+}
+
+/* Enlaces dentro de un <div class="card"> */
+.card a {
+    color: rgb(255, 255, 255); /* Cambia este color para los enlaces específicos en .card */
+}
+
+/* Color al pasar el cursor solo para enlaces dentro de .card */
+.card a:hover {
+    color: rgba(138, 0, 0, 0.788); /* Cambia este color para el efecto hover */
+}
+
+h1 {
+    color: rgb(216, 17, 17); /* Cambia el color del texto a rojo */
+    font-family: 'Oswald', sans-serif; /* Cambia la fuente; puedes usar otra como 'Verdana', 'Georgia', etc. */
+    font-size: 33px; /* Opcional: ajusta el tamaño del texto */
+    text-align: center; /* Opcional: centra el texto */
+}

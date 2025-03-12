@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrantes</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS compartido -->
+    <style>
+        /* Estilo para el zoom en las imágenes */
+        .card img {
+            transition: transform 0.3s ease; /* Animación suave */
+        }
+
+        .card img:hover {
+            transform: scale(1.1); /* Zoom al pasar el mouse */
+        }
+
+        /* Galería */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap; /* Permite que las filas bajen automáticamente */
+            justify-content: center; /* Centra las filas horizontalmente */
+            gap: 20px; /* Espaciado entre filas y columnas */
+        }
+
+        .row {
+            display: flex; /* Filas con flexbox */
+            justify-content: center; /* Alinea las tarjetas horizontalmente */
+            gap: 20px; /* Espaciado entre tarjetas en cada fila */
+            width: 100%; /* Asegura que la fila ocupe todo el ancho disponible */
+        }
+
+        .card {
+            width: 220px; /* Ancho fijo para las tarjetas */
+            border-radius: 19px; /* Bordes redondeados */
+            overflow: hidden; /* Oculta contenido que salga del contenedor */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de las tarjetas */
+            background: #000; /* Fondo negro conservado */
+            color: #fff; /* Texto en blanco para destacar sobre fondo negro */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto suave */
+        }
+
+        .card:hover {
+            transform: translateY(-10px); /* Sube la tarjeta al pasar el mouse */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Más sombra */
+        }
+
+        .card p {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center; /* Texto centrado */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body class="pagina-integrantes">
+    <header class="header">
+        <div class="logo">STRAY KIDS</div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="albumes.html">Álbumes</a></li>
+                <li><a href="historia.html">Historia</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="integrantes" class="gallery">
+        <h1>Integrantes</h1>
+
+        <!-- Primera fila -->
+        <div class="row">
+            <div class="card">
+                <a href="bangchan.html">
+                    <img src="img/img/chan2.jpeg" alt="Bang Chan">
+                    <p>Bang Chan</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="leeknow.html">
+                    <img src="img/img/lino.webp" alt="Lee Know">
+                    <p>Lee Know</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="changbin.html">
+                    <img src="img/img/bin.jpg" alt="Seo Changbin">
+                    <p>Changbin</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Segunda fila -->
+        <div class="row">
+            <div class="card">
+                <a href="hyunjin.html">
+                    <img src="img/img/hyun.jpg" alt="Hwang Hyunjin">
+                    <p>Hyunjin</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="han.html">
+                    <img src="img/img/hani.jpg" alt="Han Jisung">
+                    <p>Han</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="felix.html">
+                    <img src="img/img/felix3.webp" alt="Lee Felix">
+                    <p>Felix</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Tercera fila -->
+        <div class="row">
+            <div class="card">
+                <a href="seungmin.html">
+                    <img src="img/img/seung3.jpg" alt="Kim Seungmin">
+                    <p>Seungmin</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="jeongin.html">
+                    <img src="img/img/ayen.jpg" alt="Yang Jeongin">
+                    <p>Jeongin</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2025 STRAY KIDS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
